@@ -1,0 +1,30 @@
+.BlockPart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+	.content .block {
+	flex-basis: 48%;
+	}
+
+	@media (max-width: 550px) {
+		.content .block {
+			flex-basis: 100%;
+		}
+	}
+
+	.title {
+		color: dodgerblue;
+		font-size: 20pt;
+	}
+
+	.title::before {
+		content: '---- '
+	}
+
+	.block h4 {
+		font-family: 'Rift Bold', sans-serif;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,21 @@
+.SectionPart {
+    
+      
+      h2 {
+        font-size: 25pt;
+        margin: 0.7em 0;
+      }
+      
+      .block h4 {
+        font-size: 26pt;
+        color: #2494a2;
+        margin: 0.9em 0;
+      }
+      
+      @media (max-width: 550px) {
+        .block h4 {
+          margin: 0.4em 0;
+        }
+      }
+      
+}
