@@ -75,6 +75,7 @@ const Page: React.FunctionComponent = () => {
         },
         {
           rootMargin,
+          threshold: 0.5 /* A threshold of 1.0 means that when 100% of the target is visible within the element specified by the root option, the callback is invoked. */
         }
       );
       if (ref.current) {
